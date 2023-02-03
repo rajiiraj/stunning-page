@@ -1,0 +1,90 @@
+*{
+    text-transform: capitalize;
+}body{
+    margin:0px;
+}
+header{
+    background-color: white;
+}
+header .head img{
+    width: 120px;
+}
+.head ul li{
+     display: inline-block;
+     margin: 8px;
+     font-size:large;
+}
+.firstdiv{
+    padding: 5px 90px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.head a{
+    margin: 10px;
+    border: 2px solid peru;
+    background-color: peru;
+    padding: 12px 12px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: blue;
+    margin-right: 25px;
+}
+.head ul li:hover{
+    border-bottom: 3px solid blue;
+    cursor: pointer;
+}
+.middle{
+    align-items:center ;
+    margin: 0;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.middle{
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.middle a{
+    text-decoration:none ;
+    border: 2px solid blue;
+    padding: 20px;
+    background-color: blue;
+    color: azure;
+    border-radius: 50px;
+}
+.middle img{
+    width: 50px;
+    border: 2px solid grey;
+    margin: 5px;
+    border-radius: 30px;
+
+}
+
+main ul{
+    margin:0px;
+    list-style: none;
+}
+main ul li{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgba(224, 224, 224, 0.829);
+    border-radius: 25px;
+    box-shadow: 0 0 8px 4px gray;
+}
+main ul li:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.post{
+    padding: 50px;
+}
